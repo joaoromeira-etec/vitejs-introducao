@@ -1,14 +1,20 @@
+import { Link } from 'react-router-dom';
+
+import styles from './index.module.css';
+
 function Home() {
 
   return (
-    <>
-      <h1>Aula Introdução Vite JS</h1>
-      <h2>Preparo do projeto</h2>
-      <h3>Estilização</h3>
-      <p>Entendendo uso de css dentro do projeto.</p>
-      <label>Exemplo Label</label>
-      <small>Exemplo Small</small>
-    </>
+    <div className={styles.container}>
+      <div className={styles.containerLista}>
+        <h1>Exemplos</h1>
+        <Link to="/exemplo/1">Exemplo 1</Link>
+        <Link to="/exemplo/2">Exemplo 2</Link>
+      </div>
+      <div className={styles.containerLista}>
+        <h1>Atividades</h1>
+      </div>
+    </div>
   )
 }
 

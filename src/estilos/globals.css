@@ -85,7 +85,7 @@ input, select, textarea {
 
 /* Botões */
 button {
-  background-color: #646cff;
+  background-color: #8b0000;
   color: white;
   padding: 1rem 2rem;
   border: none;
@@ -95,7 +95,7 @@ button {
 }
 
 button:hover {
-  filter: brightness(0.9);
+  filter: brightness(1.5);
 }
 
 /* Tabelas Responsivas */

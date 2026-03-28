@@ -15,6 +15,10 @@ import Exemplo11 from './pages/exemplos/ex-11';
 import Exemplo12 from './pages/exemplos/ex-12';;
 
 import Atividade01 from './pages/atividades/atv-01';
+import Atividade02 from './pages/atividades/atv-02';
+import Atividade03 from './pages/atividades/atv-03';
+import Atividade04 from './pages/atividades/atv-04';
+import Atividade05 from './pages/atividades/atv-05';
 
 
 function App() {
@@ -35,7 +39,12 @@ function App() {
         <Route path='/exemplo/10' element={<Exemplo10/>}/>
         <Route path='/exemplo/11' element={<Exemplo11/>}/>
         <Route path='/exemplo/12' element={<Exemplo12/>}/>
+
         <Route path='/atividades/1' element={<Atividade01/>}/>
+        <Route path='/atividades/2' element={<Atividade02/>}/>
+        <Route path='/atividades/3' element={<Atividade03/>}/>
+        <Route path='/atividades/4' element={<Atividade04/>}/>
+        <Route path='/atividades/5' element={<Atividade05/>}/>
       </Routes>
     
   )

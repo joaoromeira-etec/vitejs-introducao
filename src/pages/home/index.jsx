@@ -10,6 +10,7 @@ function Home() {
         <h1>Exemplos</h1>
         <Link to="/exemplo/1">Exemplo 1</Link>
         <Link to="/exemplo/2">Exemplo 2</Link>
+        <Link to="/exemplo/3">Exemplo 3</Link>
         <Link to="/exemplo/4">Exemplo 4</Link>
         <Link to="/exemplo/5">Exemplo 5</Link>
         <Link to="/exemplo/6">Exemplo 6</Link>
